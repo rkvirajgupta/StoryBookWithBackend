@@ -1,0 +1,143 @@
+body{
+    background-image: url("./img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.verse{
+    color:grey;
+    padding: 30px;
+    margin:25px;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+
+    
+}
+.verse>span{
+    color: rgb(1,88,255);
+    font-style: italic;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:30px;
+    font-family: sans-serif;
+    
+}
+.main1 {
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    width: 90%;
+    margin: auto;
+    color:grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family:sans-serif;
+    height: 300px;
+        /* border:1px solid red; */
+
+}
+
+.main1div1{
+    /* border:1px solid red; */
+    width:80%;
+    margin: auto;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.main1>h3 {
+    color:chocolate;
+    font-weight:600;
+    font-family: sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+.main1div1>p>span{
+    color: rgb(1,88,255);
+}
+.main1div1>p{
+    margin-top: 15px;
+    font-size: small;
+}
+
+
+.mainpro1{
+    display: flex;
+    
+    justify-content:space-around;
+    text-align: left;
+}
+.mainpro1>div {
+    width: 20%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: sans-serif;
+}
+.mainpro1>div>h5{
+    color:yellow;
+}
+.mainpro1>div>span {
+    font-weight: bold;
+}
+.mainpro1>div>p{
+    color:grey;
+}
+.testimonials{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 50px;;
+    color:grey;
+}
+.btn3 {
+    padding: 10px 20px;
+    margin:25px;
+    border-radius: 8px;
+    border-color: grey;
+    color: rgb(1,88,255);
+    font-family: sans-serif;
+    font-weight: bold;;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: white;
+}
+.btn5{
+    padding: 20px 40px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: rgb(1,88,255);
+    color: rgb(1,88,255);
+    font-family: sans-serif;
+    font-weight: bold;;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: white;
+    margin-left: 80%;
+    margin-bottom: 50px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }
+    .mainpro1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }
+    .mainpro1>div{
+        width:60%;
+        margin:auto;
+
+    }
+    
+  }

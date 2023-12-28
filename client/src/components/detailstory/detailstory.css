@@ -1,0 +1,76 @@
+.btn7 {
+    padding: 20px 70px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: rgb(1,88,255);
+    background-color: rgb(1,88,255);
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;;
+    font-size: 15px;
+    letter-spacing: 3px;
+
+
+}
+.btn8{
+    padding: 20px 60px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: rgb(1,88,255);
+    color: rgb(1,88,255);
+    font-family: sans-serif;
+    font-weight: bold;;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: white;
+
+}
+.dsr0 {
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 40px;
+    padding: 25px;
+    margin-bottom: 100px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+
+
+}
+.dsr{
+    display: flex;
+    justify-content: space-around;
+}
+.dsr1{
+    /* border:1px solid red; */
+    width:30%;
+    text-align: left;
+    
+}
+.dsr1>p{
+    color:grey;
+    padding: 5px;
+}
+.dsr1>p>span{
+    color: rgb(1,88,255);
+
+}
+
+.dsr2{
+    /* border:1px solid red; */
+    width:60%;
+    color:chocolate;
+    text-align: left;
+    padding: 5px;
+}
+
+.dsr3{
+    margin-left: 87%;
+    color:grey;
+}
+.dsr3>span{
+    color: rgb(1,88,255);
+}
+.sr1{
+    font-size: 34px;
+}

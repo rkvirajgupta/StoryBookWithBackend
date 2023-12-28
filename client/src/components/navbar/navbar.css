@@ -1,0 +1,47 @@
+.navdiv {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #202d3d;
+  font-family: sans-serif;
+  border-bottom: 1px solid grey;
+}
+.nav {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+.navdiv1 {
+  width: 15%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+.navdiv1 > img {
+  height: 60px;
+
+  width: 50%;
+}
+.navdiv1 > p {
+  font-weight: 500;
+  color: rgb(1, 88, 255);
+}
+.btn4 {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border-color: rgb(1, 88, 255);
+  color: rgb(1, 88, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  /* font-size: 15px; */
+  letter-spacing: 1px;
+  background-color: white;
+}
+.nvbtn {
+  display: flex;
+}

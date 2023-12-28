@@ -1,0 +1,48 @@
+
+
+
+.logindiv{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 20px;   
+     width:20%;
+    height: 300px;  
+   margin:auto;
+   padding:20px;
+   margin-top:50px;
+   margin-bottom: 50px;
+   text-align: center;
+   
+
+}
+.logindiv>h2{
+    color:grey
+}
+.loginform{
+    text-align: left;
+    /* border:1px solid red; */
+    line-height: 190%;
+}
+.loginform>input{
+    width: 95%;
+    height: 20px;
+}
+#submit {
+    width:40%;
+    height: 40px;
+    padding: 10px 20px;
+    color:white;
+    background-color: black;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 90px;
+}
+@media only screen and (max-width: 800px) {
+
+    .logindiv{
+        width:90%;
+    }
+#submit{
+    margin:0px;
+}
+}
